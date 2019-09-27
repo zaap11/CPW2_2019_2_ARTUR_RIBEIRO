@@ -1,0 +1,11 @@
+@font-face{
+    font-family: "decorativa";
+    src: url(../fonts/KaushanScript-Regular.ttf)
+}
+@font-face{
+    font-family: 'padrao';
+    src: url(../fonts/Poppins-Medium.ttf)
+}
+
+$fonte-decorativa: 'decorativa';
+$fonte-padrao: 'padrao';

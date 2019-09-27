@@ -1,0 +1,75 @@
+@import 'cores';
+@import 'fontes';
+
+body{
+    margin: 0;
+}
+
+#header{
+    background-color: $cor-header;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    *{
+        display: inline;
+        vertical-align: middle;
+    }
+
+    img{
+        width: 50px;
+        margin-right: 5px;
+    }
+
+    h1{
+        font-family: $fonte-decorativa;
+        color: aliceblue;
+        text-shadow: 1px 1px #555;
+    }
+}
+
+
+#formularioContato{
+
+    padding: 10px;
+    border: 1px solid $cor-borda;
+    //ajustar a largura ao seu gosto
+    width: 70%;
+    margin: auto;
+    
+    label, input{
+        display: block;
+    }
+
+    input{
+        margin-bottom: 10px;
+        font-display: $fonte-padrao;
+        
+        //O & tem função de concatenador, no caso aqui, junta "Input[type=text]"
+        &[type=text], &[type=email]{
+            height: 20px;
+            width: 50%;
+            font-size: 100%;
+            // Daqui pra baixo é Opcional
+            border-radius: 5px;
+            border: 1px solid #aaaaaa;
+            padding-left: 3px;
+        }
+        &[type=tel], &[type=date]{
+            height: 20px;
+            width: 20%;
+            font-size: 100%;
+            // Daqui pra baixo é Opcional
+            border-radius: 5px;
+            border: 1px solid #aaaaaa;
+            padding-left: 5px;
+        }
+
+        &[type=submit]{
+            padding: 5px 10px;
+            height: inherit; //anula a altura padrão
+            background-color: $cor-botao-primario;
+            color: white;
+            border: none;
+            border-radius: 4px;
+        }
+    }
+}
