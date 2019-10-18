@@ -1,0 +1,15 @@
+1 - Clonar o seu repositório do GitHub:
+    - git clone "link do seu repositório no GitHub"
+
+2 - Fazer controle de versão local:
+    - cd PASTA EM QUE ESTÁ CLONADO O PROJETO
+    - git add .
+    - git config --list
+    - git config --global user.name "Arthur Ribeiro"
+    - git config --global user.email "arthurwat@gmail.com"
+    - git commit -m "versão inicial"
+
+3 - Fazer o controle de versão remota (GitHub):
+    - git push origin master
+
+Comitar: efetivar alterações no seu repositório ou banco de dados

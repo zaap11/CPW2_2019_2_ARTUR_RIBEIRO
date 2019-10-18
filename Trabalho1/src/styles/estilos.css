@@ -1,0 +1,45 @@
+#exercicios label, #exercicios input {
+  display: block;
+}
+
+body {
+  margin: 0;
+}
+
+#header {
+  padding: 5px 10px;
+  margin-bottom: 2px;
+  background-color: #2e3131;
+  text-align: center;
+}
+#header * {
+  display: inline;
+  vertical-align: middle;
+}
+#header h2 {
+  color: aliceblue;
+  text-shadow: 1px 1px #555;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background: #67809f;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.container a:link, .container a:visited {
+  background-color: white;
+  border: #3a539b 1px solid;
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-weight: bold;
+  margin: 3px;
+}
+
+/*# sourceMappingURL=estilos.css.map */
